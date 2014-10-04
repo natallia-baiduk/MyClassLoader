@@ -1,0 +1,11 @@
+apply plugin: 'idea'
+apply plugin:'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies{
+    compile 'log4j:log4j:1.2.17'
+    runtime 'log4j:log4j:1.2.17'
+}
